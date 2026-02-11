@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Ravi-katta-dev/3d#readme",
   "dependencies": {
-    "three": "^0.128.0"
+    "three": "^0.137.0"
   }
 }
