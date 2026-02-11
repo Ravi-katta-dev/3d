@@ -103,11 +103,14 @@ git clone https://github.com/Ravi-katta-dev/3d.git
 cd 3d
 ```
 
-2. Open the HTML file:
-   - **Option 1**: Double-click `index.html` to open in your default browser
-   - **Option 2**: Use a local server (recommended):
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start a local server (required):
    
-   Using Python:
+   **Using Python:**
    ```bash
    # Python 3
    python -m http.server 8000
@@ -116,19 +119,20 @@ cd 3d
    python -m SimpleHTTPServer 8000
    ```
    
-   Using Node.js (http-server):
+   **Using Node.js (http-server):**
    ```bash
    npx http-server
    ```
    
-   Using PHP:
+   **Using PHP:**
    ```bash
    php -S localhost:8000
    ```
 
-3. Open your browser and navigate to:
-   - `http://localhost:8000` (if using a server)
-   - Or directly open `index.html` in your browser
+4. Open your browser and navigate to:
+   - `http://localhost:8000`
+
+**Note:** A local server is required because the application loads Three.js from node_modules. Direct file opening (double-clicking index.html) will not work due to CORS restrictions.
 
 ## 🎨 Design Highlights
 

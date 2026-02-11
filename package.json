@@ -1,0 +1,24 @@
+{
+  "name": "3d",
+  "version": "1.0.0",
+  "description": "A premium, fully-equipped 3D house model built for a 15-cent land plot, featuring realistic rendering with interactive interior and exterior views.",
+  "main": "house3d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravi-katta-dev/3d.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ravi-katta-dev/3d/issues"
+  },
+  "homepage": "https://github.com/Ravi-katta-dev/3d#readme",
+  "dependencies": {
+    "three": "^0.128.0"
+  }
+}

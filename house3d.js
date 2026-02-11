@@ -45,6 +45,9 @@ function init() {
     // Event listeners
     setupEventListeners();
     
+    // Set initial view mode
+    setViewMode('cutaway');
+    
     // Hide loading
     document.getElementById('loading').style.display = 'none';
     
